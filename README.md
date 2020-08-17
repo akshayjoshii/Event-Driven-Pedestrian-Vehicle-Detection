@@ -1,4 +1,4 @@
-# Robust_Event_Based_Object_Detection_with_YOLO
+# Robust Event Based Object Detection with YOLO
 
 #Code Changes:
 1. Changed the input method from argparse
