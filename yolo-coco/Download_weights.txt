@@ -1,0 +1,4 @@
+Download Yolo v3 Weights (608x608) from below link. 
+Link: https://pjreddie.com/darknet/yolo/
+
+[I can't copy them to github because of size restrictions![]
