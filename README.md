@@ -1,4 +1,4 @@
-# Event Driven Pedestrian Vehicle Detection with OpenCV Yolo
+# Event Driven Pedestrian Vehicle Detection with OpenCV and Yolo
 
 ## Abstract: 
 Most of the deep neural object detection/classification models such as R-CNN, Faster R-CNN & SSD require significantly higher computational power to achieve respectable FPS & Accuracy. But, we need a different cnn-based neural architecture to cater the scenarios where the object detection task is to be executed in real-time rather than waiting for hours to process a 10 min video stream or to run the detector on limited/low-power hardware. Thus, in this project, we implement a real-time event-driven Vehicle Detection & Counting system using the OpenCV's Yolo v3 (608 x 608) implementation. The model detects and counts pedestrians/vehicles that cross a line of interest projected in any axis within the video stream.
@@ -42,29 +42,29 @@ Most of the deep neural object detection/classification models such as R-CNN, Fa
 [For further development or modification of the project code]
 
 - **Please follow the following steps to run the project:**
-	* **Step 1:** Container creation
-	* **Command:** docker run --name Akshay_Container -ti poojiyengar5/computer_vision:latest
+	- **Step 1:** Container creation
+		* **Command:** docker run --name Akshay_Container -ti poojiyengar5/computer_vision:latest
 
-	* **Step 2:** Start the container
-	* **Command:** docker start Akshay_Container
+	- **Step 2:** Start the container
+		* **Command:** docker start Akshay_Container
 
-	* **Step 3:** Log-in to the container
-	* **Command:** docker exec -ti Akshay_Container /bin/bash
+	- **Step 3:** Log-in to the container
+		* **Command:** docker exec -ti Akshay_Container /bin/bash
 
-	* **Step 4:** Run the Object Detector
-	* **Command:** python3 HIS.py -i videos/overpass.mp4 -o output/test.avi
+	- **Step 4:** Run the Object Detector
+		* **Command:** python3 HIS.py -i videos/overpass.mp4 -o output/test.avi
 
-	* **Step 5:** Modify the Object Detector Code
-	* **Command:** vi HIS.py
+	- **Step 5:** Modify the Object Detector Code
+		* **Command:** vi HIS.py
 
-	* **Step 6:** Exit from the container
-	* **Command:** exit
+	- **Step 6:** Exit from the container
+		* **Command:** exit
 
-	* **Step 7:** Stop the container
-	* **Command:** docker stop Akshay_Container
+	- **Step 7:** Stop the container
+		* **Command:** docker stop Akshay_Container
 
-	* **Step 8:** Delete the container
-	* **Command:** docker rm Akshay_Container
+	- **Step 8:** Delete the container
+		* **Command:** docker rm Akshay_Container
 
 
 ## Future Works:
