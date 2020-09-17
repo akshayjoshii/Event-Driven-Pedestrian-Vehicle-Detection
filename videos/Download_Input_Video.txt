@@ -1,0 +1,4 @@
+Download a sample input video from the link mentioned: https://drive.google.com/file/d/1k9mTMGVxDpLqlqr4T7mci-viInS5Pe_M/view?usp=sharing
+
+Then, save the "overpass.mp4" file inside the videos folder within the project directory.
+I could not upload the video file in the repo because of file size restrictions!

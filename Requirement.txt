@@ -1,3 +1,4 @@
 imutils
 opencv-contrib-python
 numpy
+tqdm
