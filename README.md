@@ -66,6 +66,9 @@ Most of the deep neural object detection/classification models such as R-CNN, Fa
 	- **Step 8:** Delete the container
 		* **Command:** docker rm Akshay_Container
 
+## Object Detector in action:
+[![YOLO Video](https://img.youtube.com/vi/IgH4QdbxRPw/maxresdefault.jpg)](https://youtu.be/IgH4QdbxRPw)
+
 
 ## Future Works:
 
