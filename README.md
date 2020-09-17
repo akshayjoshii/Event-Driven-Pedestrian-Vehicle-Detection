@@ -36,7 +36,7 @@ Most of the deep neural object detection/classification models such as R-CNN, Fa
 #### For Beginner Users:
 [Who just wants to run the Object Detector once and see the results - cannot modify or view the code, so don't use this command if you want to continue the project development in the future!]
 
-**Command**: docker run --rm --name Akshay_Container -ti poojiyengar5/computer_vision:latest python3 HIS.py -i videos/overpass.mp4 -o output/final_output.avi
+- **Command**: docker run --rm --name Akshay_Container -ti poojiyengar5/computer_vision:latest python3 HIS.py -i videos/overpass.mp4 -o output/final_output.avi
 
 #### For Advanced Users:
 [For further development or modification of the project code]
